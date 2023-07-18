@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:wght@600&family=Work+Sans:wght@400;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+/* common use  */
+.font-color{
+    color: #3c354f;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+/*header and nav-container style start */
+.nav-container {
+  max-width: 1400px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-log {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-image {
+  width: 75px;
+}
+.nav-title {
+  color: #0b0223;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.nav-title-first-latter {
+  color: rgb(241, 53, 53);
+}
+.nav-menu-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-menu-items a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+.nav-menu-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  gap: 10px;
+  background-color: #d4d3d6;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.fa-youtube {
+  color: red;
+}
