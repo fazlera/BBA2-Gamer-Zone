@@ -6,11 +6,11 @@
   font-family: "Work Sans", sans-serif;
 }
 /* common use  */
-.font-color{
-    color: #3c354f;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
+.font-color {
+  color: #3c354f;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
 }
 /*header and nav-container style start */
 .nav-container {
@@ -61,3 +61,72 @@
 .fa-youtube {
   color: red;
 }
+/* header and nav container style end */
+
+/* banner-goat-container style start */
+.banner-goat-container {
+  max-width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-goat-content {
+  background-image: url(./images/Group\ 14.png),
+    linear-gradient(
+      223deg,
+      rgba(140, 87, 238, 0.03) 0%,
+      rgba(241, 68, 174, 0.03) 100%
+    );
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+
+.goat-content-title {
+  color: #0b0223;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.goat-main-title {
+  text-align: center;
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.goat-content-short-description {
+  color: #534c64;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: lowercase;
+  margin-top: 20px;
+}
+.goat-content-button {
+  margin-top: 30px;
+  padding: 15px 40px;
+  border-radius: 45px;
+  background-color: #ff42a5;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+}
+.second {
+  background-color: #4ec5f7;
+}
+.banner-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* banner-goat-container style end */

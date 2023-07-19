@@ -9,4 +9,17 @@
     .nav-menu-items a,.nav-menu-icon{
         margin-top: 30px;
     }
+    .banner-goat-container{
+        flex-direction: column-reverse;
+        margin-top: 150px;
+
+    }
+    .banner-goat-content{
+        margin-top: 50px;
+    }
+    .banner-image img{
+        width: 80%;
+        margin-left: 50px;
+        
+    }
 }
