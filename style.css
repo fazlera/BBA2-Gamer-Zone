@@ -57,6 +57,7 @@
   background-color: #d4d3d6;
   padding: 10px 15px;
   border-radius: 5px;
+  cursor: pointer;
 }
 .fa-youtube {
   color: red;
