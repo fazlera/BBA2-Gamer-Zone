@@ -22,4 +22,75 @@
         margin-left: 50px;
         
     }
+    .online-game-card-items {
+        flex-direction: column;
+        margin-right: 50px;
+    }
+    .online-game-title{
+        font-size: 20px;
+    }
+    .game-title-style {
+        background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 20px;
+        font-weight: 700;
+      }
+      .online-game-title {
+        color: #0b0223;
+        font-size: 25px;
+        font-weight: 700;
+
+      }
+      .card-image{
+        max-width: 350px;
+        margin: 20px auto;
+
+      }
+      .card-caption{
+        font-size: 12px;
+        text-align: center;
+      }
+      .online-game-description{
+        font-size: 10px;
+        margin-top: 10px;
+      }
+      .play-container{
+        flex-direction: column;
+        margin-top: 1500px;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: center;
+      }
+      .play-title{
+        text-align: center;
+        font-size: 40px;
+        margin-right: 20px;
+        
+      }
+      .play-description {
+        color: #534C64;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 20px;
+    
+      }
+      .play-image {
+        position: relative;
+      }
+      .play-image-big {
+        width: 90%;
+        object-fit: cover;
+        margin-top: 20px;
+        margin-left: 30px;
+      }
+      .play-image-small {
+        width: 60%;
+        position: absolute;
+        top: 120px;
+        left: 0px;
+      }
+      
 }

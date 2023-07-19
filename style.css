@@ -130,3 +130,119 @@
 }
 
 /* banner-goat-container style end */
+
+/* online-game-container style start */
+.online-game-container {
+  max-width: 1400px;
+  height: 500px;
+  margin: 50px auto;
+}
+.online-game-content {
+  text-align: center;
+  margin: 20px 0;
+}
+.online-game-card-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.online-game-title {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+}
+.game-title-style {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
+}
+.online-game-card {
+  max-width: 280px;
+  position: relative;
+}
+.card-image {
+  max-width: 280px;
+}
+.card-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  color: white;
+  font-size: 15px;
+}
+.fa-solid {
+  font-size: 30px;
+}
+.card-icon-title {
+  color: #f948b2;
+  font-weight: bolder;
+  padding: 10px 0;
+}
+.card-image:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url(./images/Rectangle\ 4.png);
+  background-blend-mode: overlay;
+  cursor: pointer;
+}
+.card-icon:hover {
+  visibility: visible;
+}
+
+/* online-game-container style end */
+
+/* play-container start  */
+.play-container {
+  max-width: 1400px;
+  height: 75%;
+  margin: 200px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.play-image {
+  position: relative;
+}
+.play-image-big {
+  width: 100%;
+  object-fit: cover;
+}
+.play-image-small {
+  width: 70%;
+  position: absolute;
+  top: 200px;
+  left: -60px;
+}
+
+.play-title {
+  text-align: right;
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 340px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.play-title-style {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play-description {
+  color: #534c64;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 380px;
+
+  
+}
+/* play-container end  */
