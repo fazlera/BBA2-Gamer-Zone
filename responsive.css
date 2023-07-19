@@ -98,9 +98,51 @@
     color: #0b0223;
     font-size: 16px;
     font-weight: 600;
-
   }
   .random-btn img {
     width: 20%;
+  }
+  .footer-container {
+  height:100vh;
+  background-color: #0b0223;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .footer-menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    
+    
+  }
+  .footer-menu a{
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    gap: 5px;
+    padding: 20px;
+  }
+  .footer-icon{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-content: center;
+    justify-content: center;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .footer-description {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    width: 210px;
+    margin: 0 auto;
+    
   }
 }

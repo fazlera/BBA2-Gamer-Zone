@@ -206,7 +206,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
- 
 }
 .play-image {
   position: relative;
@@ -242,13 +241,11 @@
   font-size: 18px;
   font-weight: 400;
   max-width: 380px;
-
-  
 }
 /* play-container end  */
 
 /* random-btn style start */
-.random-container{
+.random-container {
   max-width: 1400px;
   height: 400px;
   margin: 0 auto;
@@ -257,9 +254,13 @@
   align-content: center;
   flex-wrap: wrap;
   gap: 50px;
-  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
 }
-.random-btn{
+.random-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -268,16 +269,72 @@
   background-color: white;
   font-size: 16px;
   font-weight: 600;
-  color: #0B0223;
+  color: #0b0223;
   border-radius: 45px;
-  
 }
-.random-btn img{
+.random-btn img {
   width: 25%;
 }
-.random-btn:hover{
-  border: 1px solid #0B0223;
+.random-btn:hover {
+  border: 1px solid #0b0223;
   padding: 5px 15px;
   border-radius: 45px;
 }
 /* random-btn style end */
+/* footer-container-style start */
+.footer-container {
+  height: 50vh;
+  background-color: #0b0223;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-title {
+  justify-content: center;
+  color: white;
+}
+.footer-menu {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+}
+.footer-menu a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  padding: 20px 0;
+  gap: 20px;
+}
+.footer-last-icon {
+  background-color: #0b0223;
+  color: #fff;
+  align-items: center;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+.last-item a {
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+}
+.fa-facebook{
+  color: aqua;
+}
+.fa-youtube{
+  color: #f948b2;
+}
+
+/* footer-container-style end */
