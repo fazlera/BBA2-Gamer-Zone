@@ -64,16 +64,7 @@
 /* header and nav container style end */
 
 /* banner-goat-container style start */
-.banner-goat-container {
-  max-width: 1400px;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.banner-goat-content {
+.banner-goat-section {
   background-image: url(./images/Group\ 14.png),
     linear-gradient(
       223deg,
@@ -83,6 +74,14 @@
   background-repeat: no-repeat;
   background-blend-mode: overlay;
   background-size: cover;
+}
+.banner-goat-container {
+  max-width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .goat-content-title {
@@ -111,6 +110,11 @@
   font-weight: 500;
   text-transform: lowercase;
   margin-top: 20px;
+}
+.goat-icon {
+  width: 50px;
+  font-size: 20px;
+  color: #f948b2;
 }
 .goat-content-button {
   margin-top: 30px;
@@ -331,10 +335,10 @@
   color: rgba(255, 255, 255, 0.6);
   display: flex;
 }
-.fa-facebook{
+.fa-facebook {
   color: aqua;
 }
-.fa-youtube{
+.fa-youtube {
   color: #f948b2;
 }
 

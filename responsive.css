@@ -1,91 +1,86 @@
 /* responsive width:768px to  width:1024px start */
-@media screen and (min-width:768px) and (max-width:1024px) {
-    .nav-container {
-        
-        justify-content: space-between;
-        margin-left: 50px;
-      }
-      .banner-goat-container{
-        margin-left: 50px;
-      }
-      .online-game-card-items{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        margin-left: 150px;
-        align-content: center;
-        justify-content: center;
-        gap: 50px;
-      }
-      .play-container{
-        margin-top: 500px;   
-        width: 100%;
-        justify-content: space-around;
-        gap: 90px;
-      }
-      .play-image-big{
-        width: 100%;
-        position: relative;
-      }
-      .play-image-small{
-        width: 70%;
-        position: absolute;
-        top: 180px;
-       left: -50px;
-
-      }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .nav-container {
+    justify-content: space-between;
+    margin-left: 50px;
+  }
+  .banner-goat-container {
+    margin-left: 50px;
+  }
+  .online-game-card-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 150px;
+    align-content: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .play-container {
+    margin-top: 500px;
+    width: 100%;
+    justify-content: space-around;
+    gap: 90px;
+  }
+  .play-image-big {
+    width: 100%;
+    position: relative;
+  }
+  .play-image-small {
+    width: 70%;
+    position: absolute;
+    top: 180px;
+    left: -50px;
+  }
 }
 /* responsive width:768px to  width:1024px end */
 
 /* responsive width:576px to  width:768px start */
-@media screen and (min-width:576px) and (max-width:768px) {
-    .nav-container {
-        margin: 0 auto;
-      }
-      .nav-menu-items {
-        justify-content: space-between;
-      }
-      .online-game-card-items {
-        flex-wrap: wrap;
-        max-width: 100%;
-        margin: 20px 50px;
-        gap: 20px;
-      }
-     
-      
-      .play-container{
-        margin-top: 400px;
-        width: 100%;
-        justify-content: space-between;
-        gap: 100px;
-      }
-      .play-image-big{
-        width: 100%;
-        position: relative;
-      }
-      .play-image-small{
-        width: 70%;
-        position: absolute;
-        top: 130px;
-       left: -40px;
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .nav-container {
+    margin: 0 auto;
+  }
+  .nav-menu-items {
+    justify-content: space-between;
+  }
+  .online-game-card-items {
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 20px 50px;
+    gap: 20px;
+  }
 
-      }
-      .play-title {
-        text-align: center;
-        font-size: 35px;
-        margin-right: 10px;
-      }
-      .play-description {
-        color: #534c64;
-        text-align: center;
-        font-size: 14px;
-        font-weight: 400;
-        margin-top: 20px;
-        
-      }
+  .play-container {
+    margin-top: 400px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 100px;
+  }
+  .play-image-big {
+    width: 100%;
+    position: relative;
+  }
+  .play-image-small {
+    width: 70%;
+    position: absolute;
+    top: 130px;
+    left: -40px;
+  }
+  .play-title {
+    text-align: center;
+    font-size: 35px;
+    margin-right: 10px;
+  }
+  .play-description {
+    color: #534c64;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
 }
 /* responsive width:576px to  width:768px end */
 
-/* responsive width:576px start */ 
+/* responsive width:576px start */
 
 @media screen and (max-width: 576px) {
   .nav-container {
@@ -192,12 +187,12 @@
     width: 20%;
   }
   .footer-container {
-  height:100vh;
-  background-color: #0b0223;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+    height: 100vh;
+    background-color: #0b0223;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .footer-menu {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -205,10 +200,8 @@
     justify-content: center;
     flex-wrap: wrap;
     display: flex;
-    
-    
   }
-  .footer-menu a{
+  .footer-menu a {
     color: #fff;
     text-align: center;
     font-size: 12px;
@@ -216,9 +209,9 @@
     gap: 5px;
     padding: 20px;
   }
-  .footer-icon{
+  .footer-icon {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     align-content: center;
     justify-content: center;
     margin-left: 50px;
@@ -232,8 +225,7 @@
     font-weight: 500;
     width: 210px;
     margin: 0 auto;
-    
   }
 }
 
-/* responsive width:576px start */ 
+/* responsive width:576px start */
